@@ -39,8 +39,6 @@ public class BasicTitleCheck2 {
         WebElement i=driver.findElement(By.id("submitbutton"));
         i.click();
 
-
-
     }
 
     public static void main(String[] args) {

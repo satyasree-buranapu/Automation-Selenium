@@ -11,13 +11,13 @@ public class Xpath {
         driver.get("https://seleniumbase.io/demo_page");
 
         //Absolute Xpath----starts from Parent.
-        WebElement a=driver.findElement(By.xpath("/html/body/form/table/tbody/tr[1]/td[1]/h1"));
-        System.out.println(a.getText());
-        driver.quit();
+        WebElement demoPage=driver.findElement(By.xpath("/html/body/form/table/tbody/tr[1]/td[1]/h1"));
+        System.out.println(demoPage.getText());
+
 
         //Relative Xpath-----starts with middle of any child.
-        WebElement b=driver.findElement(By.xpath("//form/table/tbody/tr[1]/td[1]/h1"));
-        System.out.println(b.getText());
+        WebElement demoPage1=driver.findElement(By.xpath("//form/table/tbody/tr[1]/td[1]/h1"));
+        System.out.println(demoPage1.getText());
         driver.quit();
     }
 

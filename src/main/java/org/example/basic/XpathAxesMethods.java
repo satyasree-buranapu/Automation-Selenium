@@ -37,8 +37,6 @@ public class XpathAxesMethods {
         //preceeding
         WebElement webElement5= driver.findElement(By.xpath("//input[@id='checkBox3']/preceding-sibling::input"));
         webElement5.click();
-
-
     }
 
     public static void main(String[] args) {
